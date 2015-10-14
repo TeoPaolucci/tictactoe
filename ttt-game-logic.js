@@ -3,7 +3,10 @@
 var Game = function Player (playerOne, playerTwo, gamesToWin) {
   this.playerOne = playerOne;
   this.playerTwo = playerTwo;
-  this.grid = [[null,null,null][null,null,null][null,null,null]];
+  this.grid = [
+    [null,null,null],
+    [null,null,null],
+    [null,null,null]];
   this.playerOneScore = 0;
   this.playerTwoScore = 0;
   this.gamesToWin =
