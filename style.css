@@ -1,5 +1,13 @@
+body {
+  margin: 0px;
+}
 header {
   background-color: yellow;
+}
+.userbar{
+  background-color: yellow;
+  text-align: right;
+  padding: 10px;
 }
 .title {
   font-family: arial;
@@ -70,7 +78,7 @@ header {
 }
 .tictactoe {
   position: relative;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   width: 510px;
