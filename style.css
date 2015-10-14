@@ -70,21 +70,21 @@ header {
 }
 .tictactoe {
   position: relative;
-  margin-top: 40%;
+  margin-top: 20%;
   margin-left: auto;
   margin-right: auto;
-  width: 330px;
-  height: 330px;
+  width: 510px;
+  height: 510px;
 }
 .row {
-  width: 330px;
-  height: 110px;
+  width: 510px;
+  height: 170px;
   background-color: lightgreen;
 }
 .cell {
-  width:100px;
-  height:100px;
+  width:150px;
+  height:150px;
   background-color: white;
-  margin: 5px;
+  margin: 10px;
   float: left;
 }
