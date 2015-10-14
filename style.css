@@ -84,7 +84,7 @@ header {
 .cell {
   width:150px;
   height:150px;
-  background-color: white;
+  background-color: gray;
   margin: 10px;
   float: left;
 }
