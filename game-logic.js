@@ -42,7 +42,7 @@ var checkWin = function checkWin(grid) {
   return null;
 }
 
-var gridToArray = function gridToArray() {
+var gridToMatrix = function gridToMatrix() {
   return [
     [$('#c1').html(), $('#c2').html(), $('#c3').html()],
     [$('#c4').html(), $('#c5').html(), $('#c6').html()],
@@ -78,7 +78,7 @@ $(document).ready(function(){
   $('.cell').on('click', function(){
     if (!$(this).html()) {
       $(this).html(turnSymbol)
-      var gameState = checkWin(gridToArray());
+      var gameState = checkWin(gridToMatrix());
       switch (gameState) {
         case 'X' :
           naughtsWins++;
