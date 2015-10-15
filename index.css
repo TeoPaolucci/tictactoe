@@ -98,3 +98,11 @@ header {
   text-align: center;
   font-size: 136px;
 }
+.popup {
+  position: fixed;
+  background-color: navy;
+  text-align: left;
+  padding: 10px;
+  top: 0;
+  left: 0;
+}
