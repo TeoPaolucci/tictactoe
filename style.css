@@ -45,7 +45,7 @@ header {
   display: block;
   padding: 10px;
 }
-.oughts {
+.naughts {
   background-color: blue;
   min-width: 140px;
   max-width: 33%;
@@ -54,7 +54,7 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-.naughts {
+.oughts {
   background-color: blue;
   min-width: 140px;
   max-width: 33%;
