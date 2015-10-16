@@ -106,3 +106,8 @@ header {
   top: 0;
   left: 0;
 }
+#result {
+  height: 10ex;
+  width: 90%;
+  margin: 5px;
+}
